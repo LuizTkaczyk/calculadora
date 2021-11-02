@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  calculadora-angular:
+    image: calculadora-angular
+    build: .
+    ports:
+      - 8081:80
